@@ -8,14 +8,14 @@
  */
 
 
-namespace luweiss\Wechat;
+namespace gedong009\Wechat;
 
 
 use GuzzleHttp\Client;
 
 /**
  * Class WechatHttpClient
- * @package luweiss\Wechat
+ * @package gedong009\Wechat
  */
 class WechatHttpClient
 {

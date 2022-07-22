@@ -8,7 +8,7 @@
  */
 
 
-namespace luweiss\Wechat;
+namespace gedong009\Wechat;
 
 
 use Throwable;

@@ -8,7 +8,7 @@
  */
 
 
-namespace luweiss\Wechat;
+namespace gedong009\Wechat;
 
 
 use Doctrine\Common\Cache\ApcuCache;
@@ -19,7 +19,7 @@ use Doctrine\Common\Cache\RedisCache;
 
 /**
  * Class Wechat
- * @package luweiss\Wechat
+ * @package gedong009\Wechat
  */
 class Wechat extends WechatBase
 {

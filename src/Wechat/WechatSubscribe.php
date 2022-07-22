@@ -8,7 +8,7 @@
  * @link: http://www.zjhejiang.com
  */
 
-namespace luweiss\Wechat;
+namespace gedong009\Wechat;
 
 
 class WechatSubscribe extends WechatApi

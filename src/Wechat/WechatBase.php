@@ -8,10 +8,10 @@
  */
 
 
-namespace luweiss\Wechat;
+namespace gedong009\Wechat;
 
 
-abstract class WechatBase
+abstract class  WechatBase
 {
     /**
      * @return WechatHttpClient

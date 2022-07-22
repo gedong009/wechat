@@ -5,7 +5,7 @@
 ### Install
 
 ```bash
-composer require 'luweiss/wechat'
+composer require 'gedong009/wechat'
 ```
 
 ### Wechat
@@ -13,7 +13,7 @@ composer require 'luweiss/wechat'
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
-$wechat = new \luweiss\Wechat\Wechat();
+$wechat = new \gedong009\Wechat\Wechat();
 $accessToken = $wechat->getAccessToken;
 ```
 
@@ -22,7 +22,7 @@ $accessToken = $wechat->getAccessToken;
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
-$wechatPay = new \luweiss\Wechat\WechatPay();
+$wechatPay = new \gedong009\Wechat\WechatPay();
 $res = $wechatPay->unifiedOrder();
 ```
 
@@ -32,11 +32,12 @@ $res = $wechatPay->unifiedOrder();
 ### WechatSubscribe
 ```订阅消息接口```
 ```php
-$wechat = new \luweiss\Wechat\Wechat();
+$wechat = new \gedong009\Wechat\Wechat();
 $tid = 434;     // 模板标题 id，可通过接口获取，也可登录小程序后台查看获取
 $kidList = [6, 5, 9, 1];      // 开发者自行组合好的模板关键词列表，可以通过 `getTemplateKeywords` 方法获取
 $sceneDesc = '下单成功通知';    // 服务场景描述，非必填
 
-$wechatSubscribe = new \luweiss\Wechat\WechatSubscribe($wechat);
+$wechatSubscribe = new \gedong009\Wechat\WechatSubscribe($wechat);
 $res = $wechatSubscribe->addTemplate($tid, $kidList, $sceneDesc);
 ```
+fork from luweiss/wechat
