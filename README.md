@@ -40,4 +40,4 @@ $sceneDesc = '下单成功通知';    // 服务场景描述，非必填
 $wechatSubscribe = new \gedong009\Wechat\WechatSubscribe($wechat);
 $res = $wechatSubscribe->addTemplate($tid, $kidList, $sceneDesc);
 ```
-fork from luweiss/wechat
+forked from luweiss/wechat
