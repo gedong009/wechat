@@ -34,7 +34,7 @@ class Wechat extends WechatBase
 
     /** @var Cache $cacheObject */
     private $cacheObject;
-    private $accessToken;
+    protected $accessToken;
     private $accessTokenOk;
 
     /**
